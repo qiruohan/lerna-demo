@@ -1,0 +1,26 @@
+{
+  "name": "@lerna-demo/cli-shared-utils",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "qiruohan <qiruohan@baidu.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/cli-shared-utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "semver": "^7.3.5"
+  }
+}
